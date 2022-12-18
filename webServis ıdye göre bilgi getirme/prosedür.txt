@@ -1,0 +1,10 @@
+create proc [dbo].[sp_bilgigetir]
+(@ýd int)
+
+
+as
+begin
+
+select * from giris_bilgileri where ýd=@ýd
+
+end
